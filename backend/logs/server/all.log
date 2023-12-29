@@ -1,0 +1,299 @@
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T08:38:56.083Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T08:38:56.108Z"}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\chat_application\backend\node_modules\express\lib\router\index.js:469:13)
+    at routes (D:\chat_application\backend\src\routes\/index.js:14:10)
+    at Object.<anonymous> (D:\chat_application\backend\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._compile (D:\chat_application\backend\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.newLoader [as .js] (D:\chat_application\backend\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\chat_application\backend\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Sun Dec 24 2023 18:15:36 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":35651.156},"process":{"argv":["node","D:\\chat_application\\backend\\src\\index.js"],"cwd":"D:\\chat_application\\backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18424441,"external":19956372,"heapTotal":92073984,"heapUsed":51724672,"rss":135442432},"pid":23172,"uid":null,"version":"v18.17.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\chat_application\\backend\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (D:\\chat_application\\backend\\src\\routes\\/index.js:14:10)\n    at Object.<anonymous> (D:\\chat_application\\backend\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\chat_application\\backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-12-24T12:45:36.319Z","trace":[{"column":13,"file":"D:\\chat_application\\backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"D:\\chat_application\\backend\\src\\routes\\/index.js","function":"routes","line":14,"method":null,"native":false},{"column":38,"file":"D:\\chat_application\\backend\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false},{"column":24,"file":"D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":7,"file":"D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\chat_application\\backend\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T12:45:57.491Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T12:45:57.506Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T12:46:15.633Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T12:46:15.653Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T12:47:51.860Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T12:47:51.880Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:01:35.290Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:01:35.351Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:02:51.757Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:02:51.784Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:04:22.680Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:04:22.715Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 57
+    at JSON.parse (<anonymous>)
+    at parse (D:\chat_application\backend\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\chat_application\backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\chat_application\backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\chat_application\backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\chat_application\backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-24T13:04:48.811Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:09:11.268Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:09:11.302Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:13:58.362Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:13:58.400Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:14:13.676Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:14:13.706Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:15:11.353Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:15:11.388Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:15:25.655Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:15:25.688Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:17:04.006Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:17:04.049Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:18:47.324Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:18:47.363Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:20:44.924Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:20:44.956Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:20:52.656Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:20:52.697Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:21:19.189Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:21:19.218Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:22:02.212Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:22:02.245Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:28:26.719Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:28:26.773Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:29:17.308Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:29:17.339Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:29:40.504Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:29:40.537Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:32:09.923Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:32:09.955Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:35:20.550Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:35:20.584Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:35:58.779Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:35:58.813Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:36:18.922Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:36:18.952Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:37:45.940Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:37:45.969Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:45:56.345Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:45:56.381Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:48:25.940Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:48:25.969Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:50:26.539Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:50:26.577Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:51:32.666Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:51:32.703Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:54:47.148Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:54:47.181Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T13:57:12.937Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T13:57:12.970Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T14:01:37.967Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T14:01:37.998Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T14:09:43.926Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T14:09:43.997Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T14:09:52.348Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T14:09:52.458Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T14:10:04.701Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T14:10:04.764Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T14:10:24.309Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T14:10:24.385Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T14:10:34.975Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T14:10:35.067Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T14:26:48.299Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T14:26:48.402Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T14:28:42.935Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T14:28:42.996Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T14:31:17.207Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T14:31:17.262Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T14:33:14.701Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T14:33:14.755Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T14:33:37.449Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T14:33:37.495Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T14:34:24.351Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T14:34:24.403Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T14:35:59.323Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T14:35:59.400Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T15:34:26.697Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T15:34:26.745Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T15:35:06.578Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T15:35:06.621Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T15:44:26.910Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T15:44:26.928Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T16:13:35.657Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T16:13:35.675Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T16:14:08.764Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T16:14:08.784Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T16:16:08.850Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T16:16:08.872Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T16:46:13.348Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T16:46:13.367Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T16:48:15.737Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T16:48:15.759Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T16:57:02.278Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T16:57:02.316Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T16:57:41.462Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T16:57:41.516Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T16:58:39.280Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T16:58:39.308Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T16:59:37.285Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T16:59:37.323Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T16:59:51.200Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T16:59:51.228Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:00:27.567Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:00:27.607Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:00:55.998Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:00:56.028Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:01:10.419Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:01:10.480Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:06:59.944Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:06:59.973Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:08:26.050Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:08:26.095Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:08:37.931Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:08:37.962Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:09:39.157Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:09:39.188Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:09:53.472Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:09:53.502Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:10:48.433Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:10:48.482Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:11:48.562Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:11:48.592Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:13:56.855Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:13:56.883Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:14:23.196Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:14:23.236Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:14:45.310Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:14:45.333Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:15:05.315Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:15:05.345Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:15:31.178Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:15:31.223Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:15:43.900Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:15:43.935Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:15:57.546Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:15:57.587Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:16:30.282Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:16:30.312Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:17:54.944Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:17:54.974Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:18:17.699Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:18:17.729Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T17:19:03.301Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T17:19:03.329Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T18:19:35.340Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T18:19:35.360Z"}
+error: uncaughtException: http is not defined
+ReferenceError: http is not defined
+    at Object.<anonymous> (D:\chat_application\backend\src\/index.js:22:16)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._compile (D:\chat_application\backend\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.newLoader [as .js] (D:\chat_application\backend\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\chat_application\backend\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Sun Dec 24 2023 23:59:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":56284.671},"process":{"argv":["node","D:\\chat_application\\backend\\src\\index.js"],"cwd":"D:\\chat_application\\backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18939800,"external":20482965,"heapTotal":97521664,"heapUsed":61505032,"rss":156614656},"pid":22152,"uid":null,"version":"v18.17.0"},"stack":"ReferenceError: http is not defined\n    at Object.<anonymous> (D:\\chat_application\\backend\\src\\/index.js:22:16)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\chat_application\\backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-12-24T18:29:29.842Z","trace":[{"column":16,"file":"D:\\chat_application\\backend\\src\\/index.js","function":null,"line":22,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false},{"column":24,"file":"D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":7,"file":"D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\chat_application\\backend\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T18:30:27.890Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T18:30:27.909Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-24T18:44:06.078Z"}
+info: Connected to the database. {"timestamp":"2023-12-24T18:44:06.098Z"}
+error: uncaughtException: You are trying to attach socket.io to an express request handler function. Please pass a http.Server instance.
+Error: You are trying to attach socket.io to an express request handler function. Please pass a http.Server instance.
+    at Server.attach (D:\chat_application\backend\node_modules\socket.io\dist\index.js:213:19)
+    at new Server (D:\chat_application\backend\node_modules\socket.io\dist\index.js:119:18)
+    at module.exports (D:\chat_application\backend\node_modules\socket.io\dist\index.js:809:33)
+    at Object.<anonymous> (D:\chat_application\backend\src\/index.js:22:20)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._compile (D:\chat_application\backend\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.newLoader [as .js] (D:\chat_application\backend\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\chat_application\backend\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Dec 25 2023 17:04:56 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":9690.046},"process":{"argv":["node","D:\\chat_application\\backend\\src\\index.js"],"cwd":"D:\\chat_application\\backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19055439,"external":20597876,"heapTotal":96210944,"heapUsed":57762096,"rss":186830848},"pid":21492,"uid":null,"version":"v18.17.0"},"stack":"Error: You are trying to attach socket.io to an express request handler function. Please pass a http.Server instance.\n    at Server.attach (D:\\chat_application\\backend\\node_modules\\socket.io\\dist\\index.js:213:19)\n    at new Server (D:\\chat_application\\backend\\node_modules\\socket.io\\dist\\index.js:119:18)\n    at module.exports (D:\\chat_application\\backend\\node_modules\\socket.io\\dist\\index.js:809:33)\n    at Object.<anonymous> (D:\\chat_application\\backend\\src\\/index.js:22:20)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\chat_application\\backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-12-25T11:34:56.224Z","trace":[{"column":19,"file":"D:\\chat_application\\backend\\node_modules\\socket.io\\dist\\index.js","function":"Server.attach","line":213,"method":"attach","native":false},{"column":18,"file":"D:\\chat_application\\backend\\node_modules\\socket.io\\dist\\index.js","function":"new Server","line":119,"method":null,"native":false},{"column":33,"file":"D:\\chat_application\\backend\\node_modules\\socket.io\\dist\\index.js","function":"module.exports","line":809,"method":"exports","native":false},{"column":20,"file":"D:\\chat_application\\backend\\src\\/index.js","function":null,"line":22,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false},{"column":24,"file":"D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":7,"file":"D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\chat_application\\backend\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'on')
+TypeError: Cannot read properties of undefined (reading 'on')
+    at Object.<anonymous> (D:\chat_application\backend\src\/index.js:34:4)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._compile (D:\chat_application\backend\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.newLoader [as .js] (D:\chat_application\backend\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\chat_application\backend\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Dec 25 2023 17:06:18 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":9771.984},"process":{"argv":["node","D:\\chat_application\\backend\\src\\index.js"],"cwd":"D:\\chat_application\\backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19035786,"external":20578223,"heapTotal":96473088,"heapUsed":58435344,"rss":186757120},"pid":10096,"uid":null,"version":"v18.17.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'on')\n    at Object.<anonymous> (D:\\chat_application\\backend\\src\\/index.js:34:4)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\chat_application\\backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-12-25T11:36:18.157Z","trace":[{"column":4,"file":"D:\\chat_application\\backend\\src\\/index.js","function":null,"line":34,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false},{"column":24,"file":"D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":7,"file":"D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\chat_application\\backend\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-25T11:37:15.849Z"}
+info: Connected to the database. {"timestamp":"2023-12-25T11:37:15.870Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-25T11:42:32.985Z"}
+info: Connected to the database. {"timestamp":"2023-12-25T11:42:33.038Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-25T11:43:11.261Z"}
+info: Connected to the database. {"timestamp":"2023-12-25T11:43:11.312Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-25T12:04:32.276Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3020
+Error: listen EADDRINUSE: address already in use :::3020
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Server.attach (D:\chat_application\backend\node_modules\socket.io\dist\index.js:226:17)
+    at new Server (D:\chat_application\backend\node_modules\socket.io\dist\index.js:119:18)
+    at module.exports (D:\chat_application\backend\node_modules\socket.io\dist\index.js:809:33)
+    at Object.<anonymous> (D:\chat_application\backend\src\/index.js:43:20)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._compile (D:\chat_application\backend\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.newLoader [as .js] (D:\chat_application\backend\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\chat_application\backend\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Dec 25 2023 17:34:32 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3020,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":11466.156},"process":{"argv":["node","D:\\chat_application\\backend\\src\\index.js"],"cwd":"D:\\chat_application\\backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19939834,"external":21501464,"heapTotal":97705984,"heapUsed":62841280,"rss":188993536},"pid":18128,"uid":null,"version":"v18.17.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3020\n    at Server.setupListenHandle [as _listen2] (node:net:1751:16)\n    at listenInCluster (node:net:1799:12)\n    at Server.listen (node:net:1887:7)\n    at Server.attach (D:\\chat_application\\backend\\node_modules\\socket.io\\dist\\index.js:226:17)\n    at new Server (D:\\chat_application\\backend\\node_modules\\socket.io\\dist\\index.js:119:18)\n    at module.exports (D:\\chat_application\\backend\\node_modules\\socket.io\\dist\\index.js:809:33)\n    at Object.<anonymous> (D:\\chat_application\\backend\\src\\/index.js:43:20)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\chat_application\\backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-12-25T12:04:32.338Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1751,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1799,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1887,"method":"listen","native":false},{"column":17,"file":"D:\\chat_application\\backend\\node_modules\\socket.io\\dist\\index.js","function":"Server.attach","line":226,"method":"attach","native":false},{"column":18,"file":"D:\\chat_application\\backend\\node_modules\\socket.io\\dist\\index.js","function":"new Server","line":119,"method":null,"native":false},{"column":33,"file":"D:\\chat_application\\backend\\node_modules\\socket.io\\dist\\index.js","function":"module.exports","line":809,"method":"exports","native":false},{"column":20,"file":"D:\\chat_application\\backend\\src\\/index.js","function":null,"line":43,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false},{"column":24,"file":"D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":7,"file":"D:\\chat_application\\backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\chat_application\\backend\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-25T12:04:51.755Z"}
+info: Connected to the database. {"timestamp":"2023-12-25T12:04:51.777Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-25T12:07:51.292Z"}
+info: Connected to the database. {"timestamp":"2023-12-25T12:07:51.311Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-25T12:22:21.321Z"}
+info: Connected to the database. {"timestamp":"2023-12-25T12:22:21.339Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-25T12:32:13.344Z"}
+info: Connected to the database. {"timestamp":"2023-12-25T12:32:13.363Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-25T12:33:30.485Z"}
+info: Connected to the database. {"timestamp":"2023-12-25T12:33:30.508Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-26T05:35:32.359Z"}
+info: Connected to the database. {"timestamp":"2023-12-26T05:35:32.378Z"}
+info: Server started at http://localhost:3020/api/v1/ {"timestamp":"2023-12-28T05:35:17.538Z"}
+info: Connected to the database. {"timestamp":"2023-12-28T05:35:17.568Z"}
